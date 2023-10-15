@@ -1,0 +1,26 @@
+/* Set background image for the entire page */
+body {
+    background-image: url('assets/images/v8.jpg'); /* Replace 'xyz.jpg' with your image file name */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Add styles to make text content readable on the background image */
+.container {
+    padding: 20px;
+    color: #fff; /* Set text color to white or any color that suits your design */
+}
+
+/* Media query for mobile devices (adjust as needed) */
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    /* Additional styles for better readability on mobile */
+    .container {
+        padding: 10px;
+    }
+}
